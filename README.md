@@ -1,9 +1,14 @@
-# api documentation for  [font-awesome-webpack (v0.0.4)](https://github.com/gowravshekar/font-awesome-webpack)  [![npm package](https://img.shields.io/npm/v/npmdoc-font-awesome-webpack.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-font-awesome-webpack) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-font-awesome-webpack.svg)](https://travis-ci.org/npmdoc/node-npmdoc-font-awesome-webpack)
+# npmdoc-font-awesome-webpack
+
+#### api documentation for  [font-awesome-webpack (v0.0.4)](https://github.com/gowravshekar/font-awesome-webpack)  [![npm package](https://img.shields.io/npm/v/npmdoc-font-awesome-webpack.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-font-awesome-webpack) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-font-awesome-webpack.svg)](https://travis-ci.org/npmdoc/node-npmdoc-font-awesome-webpack)
+
 #### font-awesome package for webpack
 
-[![NPM](https://nodei.co/npm/font-awesome-webpack.png?downloads=true)](https://www.npmjs.com/package/font-awesome-webpack)
+[![NPM](https://nodei.co/npm/font-awesome-webpack.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/font-awesome-webpack)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-font-awesome-webpack/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-font-awesome-webpack_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-font-awesome-webpack/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-font-awesome-webpack/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-font-awesome-webpack/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-font-awesome-webpack/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-font-awesome-webpack/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-font-awesome-webpack/build/screenCapture.npmPackageListing.svg)
 
@@ -46,8 +51,7 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "gowravshekar",
-            "email": "gowrav.shekar@googlemail.com"
+            "name": "gowravshekar"
         }
     ],
     "name": "font-awesome-webpack",
@@ -55,7 +59,6 @@
     "peerDependencies": {
         "font-awesome": ">=4.3.0"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/gowravshekar/font-awesome-webpack.git"
@@ -66,16 +69,6 @@
     "version": "0.0.4"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module font-awesome-webpack](#apidoc.module.font-awesome-webpack)
-
-
-
-# <a name="apidoc.module.font-awesome-webpack"></a>[module font-awesome-webpack](#apidoc.module.font-awesome-webpack)
 
 
 
