@@ -1,6 +1,6 @@
 # npmdoc-font-awesome-webpack
 
-#### api documentation for  [font-awesome-webpack (v0.0.4)](https://github.com/gowravshekar/font-awesome-webpack)  [![npm package](https://img.shields.io/npm/v/npmdoc-font-awesome-webpack.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-font-awesome-webpack) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-font-awesome-webpack.svg)](https://travis-ci.org/npmdoc/node-npmdoc-font-awesome-webpack)
+#### basic api documentation for  [font-awesome-webpack (v0.0.4)](https://github.com/gowravshekar/font-awesome-webpack)  [![npm package](https://img.shields.io/npm/v/npmdoc-font-awesome-webpack.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-font-awesome-webpack) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-font-awesome-webpack.svg)](https://travis-ci.org/npmdoc/node-npmdoc-font-awesome-webpack)
 
 #### font-awesome package for webpack
 
@@ -66,7 +66,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "0.0.4"
+    "version": "0.0.4",
+    "bin": {}
 }
 ```
 
