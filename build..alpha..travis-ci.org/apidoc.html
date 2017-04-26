@@ -61,12 +61,110 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.font-awesome-webpack">module font-awesome-webpack</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.font-awesome-webpack.index_loader">
+            function <span class="apidocSignatureSpan">font-awesome-webpack.</span>index_loader
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.font-awesome-webpack.index_loader">module font-awesome-webpack.index_loader</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.font-awesome-webpack.index_loader.index_loader">
+            function <span class="apidocSignatureSpan">font-awesome-webpack.</span>index_loader
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.font-awesome-webpack.index_loader.pitch">
+            function <span class="apidocSignatureSpan">font-awesome-webpack.index_loader.</span>pitch
+            <span class="apidocSignatureSpan">(remainingRequest)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.font-awesome-webpack" id="apidoc.module.font-awesome-webpack">module font-awesome-webpack</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.font-awesome-webpack.index_loader" id="apidoc.element.font-awesome-webpack.index_loader">
+        function <span class="apidocSignatureSpan">font-awesome-webpack.</span>index_loader
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">index_loader = function () {
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.font-awesome-webpack.index_loader" id="apidoc.module.font-awesome-webpack.index_loader">module font-awesome-webpack.index_loader</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.font-awesome-webpack.index_loader.index_loader" id="apidoc.element.font-awesome-webpack.index_loader.index_loader">
+        function <span class="apidocSignatureSpan">font-awesome-webpack.</span>index_loader
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">index_loader = function () {
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.font-awesome-webpack.index_loader.pitch" id="apidoc.element.font-awesome-webpack.index_loader.pitch">
+        function <span class="apidocSignatureSpan">font-awesome-webpack.index_loader.</span>pitch
+        <span class="apidocSignatureSpan">(remainingRequest)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">pitch = function (remainingRequest) {
+
+  // Webpack 1.7.3 uses this.resourcePath. Leaving in remaining request for possibly older versions
+  // of Webpack
+  var configFilePath = this.resourcePath || remainingRequest;
+  this.cacheable(true);
+
+  if (!configFilePath || configFilePath.trim() === &#x27;&#x27;) {
+    var msg = &#x27;You specified the font-awesome-webpack with no configuration file. Please specify&#x27; +
+      &#x27; the configuration file, like: \&#x27;font-awesome-webpack!./font-awesome.config.js\&#x27; or use&#x27; +
+      &#x27; require(\&#x27;font-awesome-webpack\&#x27;).&#x27;;
+    console.error(&#x27;ERROR: &#x27; + msg);
+    throw new Error(msg);
+  }
+
+  var config = require(configFilePath);
+  var styleLoader = config.styleLoader || &#x27;style-loader!css-loader!less-loader&#x27;;
+
+  var styleLoaderCommand = &#x27;require(&#x27; + JSON.stringify(&#x27;-!&#x27; + styleLoader + &#x27;!&#x27; +
+      require.resolve(&#x27;./font-awesome-styles.loader.js&#x27;) + &#x27;!&#x27; + configFilePath) + &#x27;);&#x27;;
+  return styleLoaderCommand;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
